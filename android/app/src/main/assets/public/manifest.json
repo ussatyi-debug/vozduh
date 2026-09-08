@@ -1,0 +1,66 @@
+{
+  "id": "/",
+  "name": "Калькулятор вентиляции",
+  "short_name": "ВентРасчет",
+  "description": "Калькулятор аэродинамического сопротивления вентиляционной шахты и воздуховодов по диаметру, материалу, длине и поворотам 90°.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#2563eb",
+  "background_color": "#0f172a",
+  "lang": "ru",
+  "dir": "ltr",
+  "categories": ["utilities", "productivity", "tools"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Главный экран калькулятора аэродинамического сопротивления"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "640x1136",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Мобильный интерфейс настройки шахты вентиляции"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Пластик Ø125",
+      "short_name": "Пластик",
+      "description": "Быстрый расчет пластикового воздуховода 125мм",
+      "url": "/",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

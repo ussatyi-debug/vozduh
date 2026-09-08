@@ -1,0 +1,8 @@
+{
+  "name": "Калькулятор сопротивления вентиляции",
+  "description": "Расчет аэродинамического сопротивления вентиляционной шахты и воздуховода по диаметру, материалу, длине и поворотам 90°.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
